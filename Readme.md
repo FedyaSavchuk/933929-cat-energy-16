@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Fedya Savchuk](https://up.htmlacademy.ru/adaptive/16/user/933929).
-* Наставник: `Неизвестно`.
+* Наставник: [Юрий зайцев](https://up.htmlacademy.ru/adaptive/16/user/89805).
 
 ---
 
