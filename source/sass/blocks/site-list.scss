@@ -1,0 +1,13 @@
+.site-list {
+  list-style: none;
+
+  font-family: $oswald;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+
+  &__link {
+    text-decoration: none;
+    color: black;
+  }
+}

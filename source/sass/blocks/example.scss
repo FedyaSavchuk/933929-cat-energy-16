@@ -1,0 +1,41 @@
+.example {
+    font-family: $oswald;
+    background-color: #f2f2f2;
+  &__title {
+
+  }
+  &__text {
+    font-family: $arial;
+    font-size: 14px;
+    line-height: 18px;
+    color: #444444;
+  }
+  &__advantages {
+
+  }
+  &__item {
+
+  }
+  &__profit {
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: lowercase;
+    font-family: $arial;
+  }
+  &__profit--value {
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+  &__cost {
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+  &__before,
+  &__after {
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+}

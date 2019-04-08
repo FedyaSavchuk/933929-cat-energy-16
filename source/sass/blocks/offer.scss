@@ -1,0 +1,17 @@
+.offer {
+  background-image: url(../img/index-background-mobile@1x.jpg);
+  background-repeat: no-repeat;
+  font-family: $oswald;
+  color: white;
+
+  &__title {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: normal;
+  }
+  &__slogan {
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+  }
+}
