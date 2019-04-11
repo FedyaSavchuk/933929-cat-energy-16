@@ -1,16 +1,14 @@
 .product-more {
+}
 
-  &__title {
-    font-family: $oswald;
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: normal;
-    text-transform: uppercase;
-  }
-  &__description {
-    font-family: $arial;
-    font-size: 12px;
-    line-height: 16px;
-    color: $dark-grey;
-  }
+.product-more__title {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.product-more__description {
+  font-family: $arial;
+  font-size: 12px;
+  line-height: 16px;
+  color: $dark-grey;
 }

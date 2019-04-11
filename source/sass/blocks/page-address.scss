@@ -1,16 +1,14 @@
 .page-address {
   font-style: normal;
+}
 
-  &__invitation {
-    font-family: $oswald;
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: uppercase;
-  }
-  &__street {
-    font-family: $arial;
-    font-size: 14px;
-    line-height: 20px;
-    color: $dark-grey;
-  }
+.page-address__invitation {
+  text-transform: uppercase;
+}
+
+.page-address__street {
+  font-family: $arial;
+  font-size: 14px;
+  line-height: 20px;
+  color: $dark-grey;
 }

@@ -1,10 +1,12 @@
 .program-selection {
-  font-family: $oswald;
-  &__text {
+}
+
+.program-selection__text {
     font-size: 14px;
     line-height: 18px;
   }
-  &__form {
+
+.program-selection__form {
     font-size: 16px;
     line-height: 18px;
     text-transform: uppercase;
@@ -12,12 +14,12 @@
     input {
       padding: 16px;
 
-      font-family: $oswald;
+
       font-size: 16px;
       line-height: 18px;
     }
     input::placeholder {
-      font-family: $oswald;
+
       font-size: 16px;
       line-height: 18px;
     }

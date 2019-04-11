@@ -1,11 +1,13 @@
 .copyright {
-  &__link {
-    text-decoration: none;
-    color: $dark-grey;
-  }
-  &__text {
-    font-family: $arial;
-    font-size: 16px;
-    line-height: 16px;
-  }
+}
+
+.copyright__link {
+  text-decoration: none;
+  color: $dark-grey;
+}
+
+.copyright__text {
+  font-family: $arial;
+  font-size: 16px;
+  line-height: 16px;
 }

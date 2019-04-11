@@ -1,1 +1,29 @@
+.main-nav {
+  width: 320px;
+}
 
+.main-nav-wrapper {
+  margin: 0px;
+  height: 65px;
+  /* Временно для сетки */
+  outline: purple 1px solid;
+}
+
+.main-nav__logo {
+  width: 200px;
+  /* Временно для сетки */
+  outline: green 1px solid;
+}
+
+.main-nav__list {
+  margin: 0px;
+  padding: 0px;
+  flex-direction: column;
+  display: flex;
+  /* Временно для сетки */
+  outline: red 1px solid;
+}
+
+.main-nav__toggle {
+  width: 35px;
+}

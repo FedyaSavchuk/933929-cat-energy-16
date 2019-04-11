@@ -2,11 +2,9 @@
   background-image: url(../img/gift-photo-mobile@1x.jpg);
   background-repeat: no-repeat;
   font-family: $arial;
-  font-size: 16px;
-  line-height: 20px;
+}
 
-  &__link {
-    color: white;
-    text-decoration: none;
-  }
+.case-gift__link {
+  color: white;
+  text-decoration: none;
 }

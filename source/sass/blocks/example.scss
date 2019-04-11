@@ -1,41 +1,45 @@
 .example {
-    font-family: $oswald;
-    background-color: $light-grey;
-  &__title {
+  background-color: $light-grey;
+}
 
-  }
-  &__text {
-    font-family: $arial;
-    font-size: 14px;
-    line-height: 18px;
-    color: $dark-grey;
-  }
-  &__advantages {
+.example__title {
+}
 
-  }
-  &__item {
+.example__text {
+  font-family: $arial;
+  font-size: 14px;
+  line-height: 18px;
+  color: $dark-grey;
+}
 
-  }
-  &__profit {
-    font-size: 12px;
-    line-height: 12px;
-    text-transform: lowercase;
-    font-family: $arial;
-  }
-  &__profit--value {
-    font-size: 24px;
-    line-height: 24px;
-    text-transform: uppercase;
-  }
-  &__cost {
-    font-size: 14px;
-    line-height: 20px;
-    text-transform: uppercase;
-  }
-  &__before,
-  &__after {
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: uppercase;
-  }
+.example__advantages {
+}
+
+.example__item {
+}
+
+.example__profit {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: lowercase;
+  font-family: $arial;
+}
+
+.example__profit--value {
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.example__cost {
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.example__before,
+.example__after {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
 }
