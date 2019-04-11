@@ -1,6 +1,6 @@
 .example {
     font-family: $oswald;
-    background-color: #f2f2f2;
+    background-color: $light-grey;
   &__title {
 
   }
@@ -8,7 +8,7 @@
     font-family: $arial;
     font-size: 14px;
     line-height: 18px;
-    color: #444444;
+    color: $dark-grey;
   }
   &__advantages {
 

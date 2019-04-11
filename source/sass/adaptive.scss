@@ -1,0 +1,58 @@
+
+body {
+  margin: 0 auto;
+}
+.page-header {
+  display: flex;
+  justify-content: center;
+  /* Временно для сетки */
+  outline: yellow 1px solid;
+}
+
+.main-nav {
+  width: 320px;
+}
+
+.main-nav-wrapper {
+  margin: 0px;
+  height: 65px;
+  /* Временно для сетки */
+  outline: purple 1px solid;
+}
+
+.main-nav__logo {
+  width: 200px;
+  /* Временно для сетки */
+  outline: green 1px solid;
+}
+
+.main-nav__list {
+  margin: 0px;
+  padding: 0px;
+  flex-direction: column;
+  display: flex;
+  /* Временно для сетки */
+  outline: red 1px solid;
+}
+
+.main-nav__toggle {
+  width: 35px;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav {
+    width: 768px;
+    display: flex;
+  }
+  .main-nav-wrapper {
+    width: 320px;
+  }
+  .main-nav__list {
+    flex-direction: row;
+    padding-top: 44px;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+}

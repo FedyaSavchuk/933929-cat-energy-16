@@ -5,11 +5,12 @@
     font-family: $oswald;
     font-size: 16px;
     line-height: 20px;
+    text-transform: uppercase;
   }
   &__street {
     font-family: $arial;
     font-size: 14px;
     line-height: 20px;
-    color: #444444;
+    color: $dark-grey;
   }
 }

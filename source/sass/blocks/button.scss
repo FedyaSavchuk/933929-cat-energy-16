@@ -21,13 +21,13 @@
   }
 
   &--secondary {
-    background-color: #f2f2f2;
-    color: #444444;
+    background-color: $light-grey;
+    color: $dark-grey;
 
     &:hover,
     &:focus {
       background-color: #ebebeb;
-      color: #444444;
+      color: $dark-grey;
     }
     &:active {
       background-color: #ebebeb;
