@@ -1,13 +1,9 @@
 
 body {
   margin: 0 auto;
+  width: 320px;
 }
-.page-header {
-  display: flex;
-  justify-content: center;
-  /* Временно для сетки */
-  outline: yellow 1px solid;
-}
+
 
 .main-nav {
   width: 320px;
@@ -40,17 +36,6 @@ body {
 }
 
 @media (min-width: $tablet-width) {
-  .main-nav {
-    width: 768px;
-    display: flex;
-  }
-  .main-nav-wrapper {
-    width: 320px;
-  }
-  .main-nav__list {
-    flex-direction: row;
-    padding-top: 44px;
-  }
 }
 
 

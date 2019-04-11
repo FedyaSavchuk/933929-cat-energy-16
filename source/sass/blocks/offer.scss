@@ -4,14 +4,37 @@
   font-family: $oswald;
   color: white;
 
-  &__title {
-    font-size: 36px;
-    line-height: 36px;
-    font-weight: normal;
-  }
-  &__slogan {
-    font-size: 14px;
-    line-height: 14px;
-    text-transform: uppercase;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  text-align: center;
+  /* Временно для сетки */
+  outline: pink 2px solid;
+}
+
+.offer__title {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: normal;
+
+  width: 280px;
+  /* Временно для сетки */
+  outline: purple 1px solid;
+}
+
+.offer__slogan {
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+
+  width: 280px;
+  /* Временно для сетки */
+  outline: blue 1px solid;
+}
+
+.offer__button {
+  width: 280px;
+  padding: 12px;
+  /* Временно для сетки */
+  outline: blue 1px solid;
 }

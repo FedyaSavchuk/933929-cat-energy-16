@@ -1,3 +1,8 @@
 .page-header {
   background-color: white;
+
+  display: flex;
+  justify-content: center;
+  /* Временно для сетки */
+  outline: yellow 1px solid;
 }
