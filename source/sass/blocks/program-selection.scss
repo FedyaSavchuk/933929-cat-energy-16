@@ -1,0 +1,22 @@
+.program-selection__text {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.program-selection__form {
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  input {
+    padding: 16px;
+
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  input::placeholder {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}

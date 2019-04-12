@@ -1,0 +1,31 @@
+.food-programs__list {
+  list-style: none;
+}
+
+.food-programs__item {
+  background-color: $light-grey;
+}
+
+.food-programs__title {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 37.02px;
+  font-weight: normal;
+}
+
+.food-programs__description {
+  font-family: $arial;
+  font-size: 14px;
+  line-height: 18px;
+  color: $dark-grey;
+
+  border-bottom: 1px solid #bbbbbb;
+}
+
+.food-programs__link {
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}

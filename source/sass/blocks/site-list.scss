@@ -1,0 +1,18 @@
+.site-list {
+  list-style: none;
+
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.site-list__link {
+  text-decoration: none;
+  color: black;
+
+  &--active {
+    border-bottom: solid 2px #68b738;
+    padding-bottom: 5px;
+  }
+}

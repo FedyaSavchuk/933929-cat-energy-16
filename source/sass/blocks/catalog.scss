@@ -1,0 +1,24 @@
+.catalog__list {
+  list-style: none;
+}
+
+.catalog__item {
+  border-top: 1px solid $light-grey;
+}
+
+.catalog__title {
+  text-transform: uppercase;
+  color: black;
+  font-weight: normal;
+}
+
+.catalog__link {
+  text-decoration: none;
+}
+
+.catalog__specifications {
+  font-family: $arial;
+  font-size: 12px;
+  line-height: 16px;
+  color: $dark-grey;
+}
