@@ -3,7 +3,7 @@
 }
 
 .main-nav-wrapper {
-  margin: 0px;
+  margin: 0;
   height: 65px;
   /* Временно для сетки */
   outline: purple 1px solid;
@@ -16,8 +16,8 @@
 }
 
 .main-nav__list {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   flex-direction: column;
   display: flex;
   /* Временно для сетки */
