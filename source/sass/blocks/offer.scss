@@ -5,36 +5,65 @@
   color: white;
 
   display: flex;
-  flex-wrap: wrap;
-  padding: 20px;
+  flex-direction: column;
   text-align: center;
   /* Временно для сетки */
   outline: pink 2px solid;
+  min-height: 502px;
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+    padding: 0px 30px;
+    background-image: none;
+    flex-direction: column;
+
+    color: black
+  }
+}
+
+.offer__wrapper {
+  width: 280px;
+  padding: 27px 20px 0 20px;;
 }
 
 .offer__title {
+  margin: 0px;
+  margin-bottom: 25px;
+  padding: 0px;
+
   font-size: 36px;
   line-height: 36px;
   font-weight: normal;
-
-  width: 280px;
-  /* Временно для сетки */
-  outline: purple 1px solid;
 }
 
 .offer__slogan {
   font-size: 14px;
   line-height: 14px;
   text-transform: uppercase;
+  margin-bottom: 303px
+  position: relative;
 
-  width: 280px;
-  /* Временно для сетки */
-  outline: blue 1px solid;
+  &::after {
+    position: absolute;
+    content: "";
+    top: 42px;
+    left: 0px;
+    width: 280px;
+    height: 270px;
+    background-image: url("../img/index-can-mobile@1x.png")
+  }
 }
 
 .offer__button {
-  width: 280px;
-  padding: 12px;
+
   /* Временно для сетки */
   outline: blue 1px solid;
+
+  @media (min-width: $tablet-width) {
+    padding: 18px 25px;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    margin-right: auto;
+  }
 }

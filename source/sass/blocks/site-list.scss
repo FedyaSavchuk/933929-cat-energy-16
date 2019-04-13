@@ -5,6 +5,11 @@
   line-height: 20px;
   font-weight: bold;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 18px;
+    line-height: 24.86px;
+  }
 }
 
 .site-list__link {
