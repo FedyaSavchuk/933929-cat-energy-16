@@ -1,12 +1,25 @@
+.food-programs {
+  padding-top: 20px;
+}
+
 .food-programs__list {
+  margin: 0px;
+  padding: 0px;
   list-style: none;
+
 }
 
 .food-programs__item {
   background-color: $light-grey;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 
 .food-programs__title {
+  margin-top: 11px;
+  padding-left: 71px;
+
+
   text-transform: uppercase;
   font-size: 24px;
   line-height: 37.02px;
@@ -14,6 +27,9 @@
 }
 
 .food-programs__description {
+  padding-top: 5px;
+  padding-bottom: 23px;
+
   font-family: $arial;
   font-size: 14px;
   line-height: 18px;
@@ -23,6 +39,9 @@
 }
 
 .food-programs__link {
+  padding-top: 5px;
+  display: block;
+
   font-size: 16px;
   line-height: 16px;
   text-decoration: none;

@@ -1,15 +1,12 @@
 .offer {
-  background-image: url("../img/index-background-mobile@1x.jpg");
-  background-repeat: no-repeat;
+  background: linear-gradient(to right, #65a93c, #63a73a);
+  background-size: 100% 50%;
 
   color: white;
 
   display: flex;
   flex-direction: column;
   text-align: center;
-  /* Временно для сетки */
-  outline: pink 2px solid;
-  min-height: 502px;
 
   @media (min-width: $tablet-width) {
     width: 768px;
@@ -22,8 +19,10 @@
 }
 
 .offer__wrapper {
-  width: 280px;
-  padding: 27px 20px 0 20px;;
+  padding-top: 27px;
+  background-image: url("../img/index-background-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 .offer__title {
@@ -40,7 +39,7 @@
   font-size: 14px;
   line-height: 14px;
   text-transform: uppercase;
-  margin-bottom: 303px
+  margin-bottom: 303px;
   position: relative;
 
   &::after {
@@ -55,9 +54,6 @@
 }
 
 .offer__button {
-
-  /* Временно для сетки */
-  outline: blue 1px solid;
 
   @media (min-width: $tablet-width) {
     padding: 18px 25px;

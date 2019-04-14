@@ -1,5 +1,10 @@
 .example {
   background-color: $light-grey;
+  padding-top: 17px;
+}
+
+.example__title {
+  margin: 0px;
 }
 
 .example__text {
@@ -7,6 +12,20 @@
   font-size: 14px;
   line-height: 18px;
   color: $dark-grey;
+  padding-right: 2px;
+  padding-top: 9px;
+}
+
+.example__advantages {
+  display: flex;
+  justify-content: space-between;
+}
+
+.example__item {
+  display: flex;
+  width: 124px;
+  flex-direction: column;
+  text-align: center;
 }
 
 .example__profit {
@@ -14,12 +33,25 @@
   line-height: 12px;
   text-transform: lowercase;
   font-family: $arial;
+  color: $dark-grey;
+  text-align: center;
+  position: relative;
+
+  width: 57px;
+  padding: 0 15px;
+  background-color: $light-grey;
+  margin-top: -9px;
+
 }
 
 .example__profit--value {
+  margin-top: 11px;
+  padding-top: 13px;
+  padding-bottom: 17px;
   font-size: 24px;
   line-height: 24px;
   text-transform: uppercase;
+  border: 1px solid $dark-grey;
 }
 
 .example__cost {

@@ -1,7 +1,21 @@
+.advantages {
+  padding-bottom: 6px;
+}
+
+.advantages__title {
+  margin: 0px;
+  margin-bottom: 28px;
+}
+
 .advantages__list {
+  padding-left: 80px;
   list-style: none;
   font-family: $arial;
   font-size: 14px;
   line-height: 18px;
   color: $dark-grey;
+}
+
+.advantages__item {
+  padding-bottom: 26px;
 }
